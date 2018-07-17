@@ -5,9 +5,7 @@ package ru.sbt.serialization;
  */
 public class SomePoint {
     private String name;
-
     private double x;
-
     private double y;
 
     protected SomePoint( double x, double y, String name ) {
