@@ -1,6 +1,7 @@
 package ru.sbt.serialization;
 
 import java.io.Serializable;
+import java.util.EnumSet;
 
 /**
  * Created by Home on 17.07.2018.
@@ -23,7 +24,6 @@ public class SerializablePoint extends SomePoint implements Serializable {
             this.name = point.getName();
             this.x = point.getX();
             this.y = point.getY();
-            //EnumSet
         }
 
         private Object readResolve() {
